@@ -420,14 +420,14 @@ img {
   margin: 0 0 20px;
   position: relative;
 }
-/*.thumbnail .img-circle {
+.thumbnail .img-circle {
   display: block;
   width: 140px;
   height: 140px;
   overflow: hidden;
   border: 9px solid rgba(0, 0, 0, 0.05);
   margin: 0 auto;
-}*/
+}
 .thumbnail .title {
   text-transform: uppercase;
   margin: 0 2em;
@@ -451,8 +451,8 @@ img {
   -o-transition-duration: 550ms;
   transition-duration: 550ms;
 }
-/*.thumbnail .cover_imgcircle {
-  /*position: absolute;*/
+.thumbnail .cover_imgcircle {
+  position: absolute;
   display: block;
   opacity: 100;
   width: 140px;
@@ -469,7 +469,7 @@ img {
   -moz-transition-duration: 550ms;
   -o-transition-duration: 550ms;
   transition-duration: 550ms;
-}*/
+}
 .thumbnail .cover .more {
   position: absolute;
   bottom: 15px;
