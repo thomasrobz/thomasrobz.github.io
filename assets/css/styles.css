@@ -420,6 +420,14 @@ img {
   margin: 0 0 20px;
   position: relative;
 }
+.thumbnail .img-circle {
+  display: block;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border: 9px solid rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+}
 .thumbnail .title {
   text-transform: uppercase;
   margin: 0 2em;
@@ -432,6 +440,23 @@ img {
   opacity: 0;
   width: 100%;
   height: 180px;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 550ms;
+  -moz-transition-duration: 550ms;
+  -o-transition-duration: 550ms;
+  transition-duration: 550ms;
+}
+.thumbnail .cover_imgcircle {
+  position: absolute;
+  display: block;
+  opacity: 0;
+  width: 140px;
+  height: 140px;
   background-color: rgba(255, 255, 255, 0.8);
   -webkit-transition-property: all;
   -moz-transition-property: all;
