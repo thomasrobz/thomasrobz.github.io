@@ -19,7 +19,7 @@
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="assets/css/styles.css">
 
-	<style>
+	<!--<style>
       #map {
 	  width: 600px;
 	  height: 500px;
@@ -40,7 +40,7 @@
         var map = new google.maps.Map(mapCanvas, mapOptions)
       }
       google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+    </script>-->
 
 
 	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
@@ -90,21 +90,22 @@
 
 <main id="main">
 
-	<div class="container">
+<div class="container">
 
 		<div class="row section topspace">
 			<div class="col-md-12">
 				<p>Just a few things that keep occupied in a world otherwise ruled by work</p>
 			</div>
 		</div> 
-	</div>
+	
 
-	<div class="row section summary topspace">
-	<div class="col-md-12" id="map">
-		<h2 class="section-title"><span>Travelling</span></h2>
-	</div>
+	<div class="row section travels topspace">
+				<h2 class="section-title"><span>Travelling</span></h2>
+				<div style="text-align: center;">
+				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=ztsBtlSR-bU0.kUnBdE69xkEg" width="640" height="480"></iframe>
+				</div> 
 	<!--<div id="map"></div>-->
-		
+	</div>
 </div>
 	
 </main>
