@@ -21,7 +21,7 @@
 
 	<style>
       #map {
-        width: 500px;
+        width: 100%;
         height: 400px;
       }
     </style>
@@ -30,8 +30,8 @@
       function initialize() {
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
-          center: new google.maps.LatLng(44.5403, -78.5463),
-          zoom: 8,
+          center: new google.maps.LatLng(0, 0),
+          zoom: Math.ceil(Math.log2($(window).width())) - 8,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions)
@@ -96,11 +96,11 @@
 		</div> 
 	</div>
 
-	<div class="row section overview topspace">
+	<div class="row section summary topspace">
 	<div class="col-md-12">
 		<h2 class="section-title"><span>Travelling</span></h2>
-		<div id="map"></div>
 	</div>
+	<div id="map"></div>
 		
 </div>
 	
